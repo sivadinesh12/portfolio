@@ -126,6 +126,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  overflow: auto;
 }
 
 .about-heading {
@@ -173,7 +174,7 @@ body {
   flex-wrap: wrap;
   height: 60vh;
   transition: transform 0.5s ease-in-out;
-  overflow:auto;
+  overflow: auto;
   scrollbar-width: 1px;
 }
 .slider > button {
@@ -189,6 +190,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  overflow: auto;
 }
 .social {
   text-align: right;
