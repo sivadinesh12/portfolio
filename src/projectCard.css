@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@100..900&display=swap");
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+    transform: translateX(+20%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.slide {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 600px;
+  animation: fadeInOut 1.5s 1 ease-in-out;
+}
+.img-container {
+  display: flex;
+  align-items: center;
+}
+.img-1 {
+  height: 200px;
+  width: 350px;
+  margin-right: 10px;
+}
+.img-1:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s ease-in-out;
+}
+.img-2 {
+  height: 200px;
+  width: 100px;
+}
+
+.project-heading {
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Roboto Slab", serif;
+  color: #fff;
+  font-weight: 600;
+}
+.project-description {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: rgb(176, 196, 234);
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
