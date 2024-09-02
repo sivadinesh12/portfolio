@@ -124,7 +124,10 @@ function App() {
         <div className="project-container">
           <div className="slider">
             <button onClick={previousSlide}>{"<"}</button>
-            <ProjectCard eachItem={projectDetails[currentIndex]} />
+            <ProjectCard
+              key={currentIndex}
+              eachItem={projectDetails[currentIndex]}
+            />
             <button onClick={nextSlide}>{">"}</button>
           </div>
         </div>

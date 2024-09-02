@@ -173,9 +173,11 @@ body {
   flex-wrap: wrap;
   height: 60vh;
   transition: transform 0.5s ease-in-out;
+  overflow:auto;
+  scrollbar-width: 1px;
 }
 .slider > button {
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.5);
   border: none;
   color: rgb(171, 170, 170);
   font-size: 50px;
@@ -261,14 +263,6 @@ body {
 @media screen and (max-width: 480px) {
   .name {
     font-size: 80px;
-  }
-
-  .project-heading {
-    font-size: 22px;
-  }
-
-  .project-description {
-    font-size: 16px;
   }
 }
 
